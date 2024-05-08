@@ -25,9 +25,9 @@ trainer:
     valid_every: 1000
     iters: 300000
     # where to save our model for prediction
-    export: ../checkpoints/transformerocr_vgg
-    checkpoint: ../checkpoints/transformerocr_checkpoint.pth
-    log: ../experiments/train.log
+    export: /kaggle/working/VietOCR-custom/checkpoints/transformerocr_vgg
+    checkpoint: /kaggle/working/VietOCR-custom/checkpoints/transformerocr_checkpoint.pth
+    log: /kaggle/working/VietOCR-custom/experiments/train.log
     # null to disable compuate accuracy, or change to number of sample to enable validiation while training
     metrics: null
 
