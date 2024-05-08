@@ -35,7 +35,7 @@ dataset:
     # name of your dataset
     name: data
     # path to annotation and image
-    data_root: ../input/data/vietnamese/custom_data
+    data_root: ../input/custom-data-vietocr/data/vietnamese/custom_data
     labels_folder: labels
     train_folder: train_images
     valid_folder: test_image
