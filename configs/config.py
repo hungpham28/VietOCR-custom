@@ -36,7 +36,7 @@ class Cfg(dict):
 
         # base_config.update(config)
         #base_config = {}
-        with open(os.path.join('/home/edabk/phumanhducanh/BKAI/TransOCR-Pytorch/configs',url_config[name]), encoding='utf-8') as f:
+        with open(os.path.join('/kaggle/working/VietOCR-custom/configs',url_config[name]), encoding='utf-8') as f:
             config = yaml.safe_load(f)
         base_config.update(config)        
         return Cfg(base_config)
