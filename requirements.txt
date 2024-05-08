@@ -35,7 +35,7 @@ numpy==1.22.3
 opencv-contrib-python==4.5.5.64
 opencv-python==4.5.5.64
 packaging==21.3
-Pillow=8.3.2
+Pillow==8.3.2
 prefetch-generator==1.0.1
 protobuf==3.20.0
 pyDeprecate==0.3.2
